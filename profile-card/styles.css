@@ -1,0 +1,86 @@
+body {
+	background-color: hsl(185, 75%, 39%); 
+	background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+	background-position: -300px -400px, 1100px 500px; 
+	background-repeat: no-repeat, no-repeat;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.card {
+	min-height: 400px;
+	max-height: 400px;
+	min-width: 400px;
+	max-width: 400px;
+	margin: 150px auto;
+	background-color: white;
+	border-radius: 20px 20px 20px 20px;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+
+#pattern {
+	width:100%; 
+	border-radius: 20px 20px 0px 0px;
+}
+
+#pic {
+  	border-radius: 50px;
+  	border-style: solid;
+  	border-color: white;
+  	border-width: 5px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	position: absolute; /* postulat de départ */
+  	top: 36.5%; left: 50%; /* à 50%/50% du parent référent */
+  	transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  }
+
+#name {
+ 	display: flex;
+ 	flex-direction: column;
+	align-self: center;
+ 	padding-top: 50px;
+ 	line-height: 0em;
+ 	margin-bottom: 0px;
+
+ }
+
+ h1{
+ 	text-align: center;
+ 	font-weight: 700;
+ 	font-size: 18px;
+ }
+
+
+ h4, h6{
+ 	text-align: center;
+ 	font-weight: 300;
+ 	color: hsl(0, 0%, 59%);
+ }
+
+#info {
+	margin-top: 15px;
+	padding-top: 20px;
+	text-align: center;
+	line-height: 0em;
+ 	border-top: solid;
+	border-color: rgb(232,232,232);
+}
+
+#info .stats {
+	display: inline-block;
+	padding-left: 35px;
+	padding-right: 35px;
+	line-height: 0em;
+}
+
+footer{
+	text-align: center;
+}
+
+
+ .attribution a { 
+ 	color: hsl(228, 45%, 44%); 
+ }
