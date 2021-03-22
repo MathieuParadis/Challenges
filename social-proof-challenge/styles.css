@@ -1,0 +1,149 @@
+html {
+	background-image: url(images/bg-pattern-bottom-desktop.svg), url(images/bg-pattern-top-desktop.svg);
+	background-repeat: no-repeat no-repeat;
+	background-position: 90% 70%, 0% 0%;
+}
+
+body {
+	font-family: 'Spartan', sans-serif;
+	margin: 150px 50px;
+}
+
+section {
+	display: grid;
+	grid-template-rows: 13% 13% 13% 51%;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+
+#intro {
+	grid-column: 1 / 4;
+	grid-row: 1 / 4;
+}
+
+#intro h1{
+	font-size: 45px;
+	font-weight: 700;
+	color: hsl(300, 43%, 22%);
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#intro p{
+	font-size: 15px;
+	font-weight: 500;
+	color: hsl(303, 10%, 53%);
+	line-height: 1.5em;
+
+}
+
+
+#ratings {
+	grid-column: 4 / 7;
+	grid-row: 1 / 4;
+	display: grid;
+	grid-template-rows: 3em 3em 3em;
+	grid-gap: 1.5em;
+	align-items: center;
+	margin-bottom: 100px;
+}
+
+.rating {
+	background-color: hsl(300, 24%, 96%);
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 475px;
+}
+
+
+.checked {
+  color: orange;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+strong {
+	padding-left: 40px;
+	font-size: 15px;
+	font-weight: 700;
+	color: hsl(300, 43%, 22%);
+}
+
+#r2 {
+	margin-left: 50px;
+}
+
+#r3 {
+	margin-left: 100px;
+}
+
+.testimony {
+	background-color: hsl(300, 43%, 22%);
+	border-radius: 10px;
+	padding: 2em;
+	margin: 0.3em;
+	margin-top: 50px;
+}
+
+
+.testimony img {
+	position: absolute;
+	border-radius: 50px;
+	transform: scale(0.6) translateY(-5px) translateX(-20px) ;
+}
+
+
+.testimony h4 {
+	font-size: 15px;
+	color: white;
+	font-weight: 500;
+	margin-bottom: 5px;
+	margin-left: 70px;
+}
+
+.testimony h5 {
+	font-size: 15px;
+	color: hsl(333, 80%, 67%);
+	font-weight: 400;
+	margin-top: -0.01em;
+	margin-left: 70px;
+}
+
+.testimony p {
+	font-size: 15px;
+	color: white;
+	font-weight: 400;
+	line-height: 1.6em;
+	padding-top: 1em;
+}
+
+
+#t1 {
+	grid-column: 1 / 3;
+}
+
+
+#t2 {
+	grid-column: 3 / 5;
+	transform: translateY(30px);
+}
+
+
+#t3 {
+	grid-column: 5 / 7;
+	transform: translateY(60px);
+}
+
+
+.attribution {
+	font-size: 16px;
+    text-align: center;
+    margin-top: 8em;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

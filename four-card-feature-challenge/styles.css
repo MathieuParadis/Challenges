@@ -1,0 +1,112 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	background-color: hsl(0, 0%, 98%);
+}
+
+section {
+	display: grid;
+	grid-template-rows: 0,5fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 30px;
+
+}
+
+#intro {
+	grid-column: 1 / 4;
+	grid-row: 1;
+	text-align: center;
+}
+
+#intro h1 {
+	font-weight: 400;
+	color: hsl(229, 6%, 66%);
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#intro h2 {
+	font-weight: 600;
+	color: hsl(234, 12%, 34%);
+	margin-top: 0px;
+}
+
+#intro p {
+	font-weight: 200;
+	color: hsl(229, 6%, 66%);
+	line-height: 1.5em;
+}
+
+
+
+.card {
+	border-top-style: solid;
+	background-color: white;
+	border-width: 0.3em;
+	border-radius: 5px;
+	padding: 30px;
+	height: 12em;
+	width: 19.8em;
+	box-shadow:20px 20px 50px grey; 
+
+}
+
+.card h3 {
+	padding-top: 0px;
+	margin-top: 0px;
+	color: hsl(234, 12%, 34%);
+}
+
+.card p {
+	color: hsl(229, 6%, 66%);
+}
+
+#supervisor{
+	grid-column: 1;
+	grid-row: 2 / 4;
+	border-color: hsl(180, 62%, 55%);
+	margin-left: 30px;
+	align-self: center;
+	justify-self: right;
+}
+
+#teamb{
+	grid-column: 2;
+	grid-row: 2;
+	border-color: hsl(0, 78%, 62%);
+	justify-self: center;
+}
+
+#karma{
+	grid-column: 2;
+	grid-row: 3;
+	border-color: hsl(34, 97%, 64%);
+	justify-self: center;
+}
+
+
+#calculator{
+	grid-column: 3;
+	grid-row: 2 / 4;
+	border-color: hsl(212, 86%, 64%);
+	margin-right: 30px;
+	align-self: center;
+	justify-self: left;
+}
+
+.card img {
+	transform: translate(370%, 20%);
+}
+
+
+
+
+
+.attribution { 
+	font-size: 11px; 
+	text-align: center; 
+}
+    
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
